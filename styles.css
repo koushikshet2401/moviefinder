@@ -124,3 +124,13 @@ button:hover {
 }
 
 
+@media (max-width: 640px) {
+  .search-form {
+    flex-direction: column;
+  }
+
+  .movies-grid {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 1rem;
+  }
+}
